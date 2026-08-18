@@ -1,0 +1,31 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/IndraJeet-09/Meraki#readme",
+  "bugs": {
+    "url": "https://github.com/IndraJeet-09/Meraki/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IndraJeet-09/Meraki.git"
+  },
+  "type": "module",
+  "main": ".src/index.ts",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@clerk/express": "^2.1.58",
+    "@types/express": "^5.0.6",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/mongoose": "^5.11.96",
+    "@types/typescript": "^0.4.29",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.9.3",
+    "typescript": "^7.0.2"
+  }
+}
